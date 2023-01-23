@@ -1,0 +1,34 @@
+*{
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+a{
+    font-weight: 600 !important;
+}
+a:hover{
+    color: rgb(148, 148, 148) !important;
+}
+#btn{
+    color: white;
+}
+#btn:hover{
+    color: white !important;
+    background-color: hsl(12, 88%, 69%) !important;
+}
+
+.hamburger{
+    cursor: pointer;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.fa-bars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+.open{
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
